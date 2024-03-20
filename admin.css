@@ -1,0 +1,66 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table-container {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow: auto;
+}
+
+/* Styling the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styling table headers */
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Styling table cells */
+td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Styling table body rows */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Styling hover effect on table rows */
+tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Styling table headings */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Overall container styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

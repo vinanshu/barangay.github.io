@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.request-form, .request-list {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+}
+
+.request-form h2, .request-list h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+.request-form label, .request-form input, .request-form select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.request-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.request-list li {
+    margin-bottom: 10px;
+}

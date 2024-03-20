@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Services</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+    <div id="serviceForm">
+        <h2>Select a Service:</h2>
+        <select id="serviceSelect">
+            <option value="barangay_clearance">Barangay Clearance</option>
+            <option value="barangay_business_permit">Barangay Business Permit</option>
+            <option value="certificate_of_residency">Certificate of Residency</option>
+        </select>
+
+        <h2>Personal Information:</h2>
+        <form id="personalInfoForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required><br>
+
+            <label for="number">Phone Number:</label>
+            <input type="text" id="number" name="number" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <input type="submit" value="Confirm">
+        </form>
+    </div>
+
+    <script src="service.js"></script>
+</body>
+</html>

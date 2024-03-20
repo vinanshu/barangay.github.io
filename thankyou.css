@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.thank-you {
+    text-align: center;
+    margin-top: 100px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards; /* Animation for fading in */
+}
+
+.thank-you h1 {
+    color: #4CAF50;
+    font-size: 2.5em;
+}
+
+.thank-you p {
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Keyframes for fading in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
